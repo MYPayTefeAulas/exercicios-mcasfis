@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".Greeter1Activity2">
 
+    <TextView
+        android:id="@+id/txtGreeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="Greeter:"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="63dp" />
+
+    <TextView
+        android:id="@+id/txtNumGreeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:text="1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txtGreeter"
+        app:layout_constraintTop_toTopOf="@+id/txtGreeter" />
+
+    <Button
+        android:id="@+id/btTrocar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:text="TROCAR"
+        app:layout_constraintBottom_toBottomOf="@+id/txtGreeter"
+        app:layout_constraintStart_toEndOf="@+id/txtNumGreeter"
+        app:layout_constraintTop_toTopOf="@+id/txtGreeter" />
+
+    <Button
+        android:id="@+id/btImprimir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="96dp"
+        android:text="Imprimir Próximo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGreeter" />
+
+    <TextView
+        android:id="@+id/txtSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btImprimir" />
 </androidx.constraintlayout.widget.ConstraintLayout>
