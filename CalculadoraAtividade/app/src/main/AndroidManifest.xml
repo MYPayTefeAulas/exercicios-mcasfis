@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraAtividade">
         <activity
-            android:name=".Greeter1Activity2"
+            android:name=".greeter.Greeter1Activity2"
             android:exported="true" />
         <activity
             android:name=".PessoasActivity"

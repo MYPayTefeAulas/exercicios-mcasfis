@@ -1,4 +1,4 @@
-package com.example.calculadoraatividade
+package com.example.calculadoraatividade.greeter
 
 class GreeterTipo1(val cumprimento: String) {
 
